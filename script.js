@@ -1,7 +1,5 @@
 const input = document.querySelector(".input");
 const button = document.querySelector(".button");
-//const chat = document.querySelector(".chat");
-//const name = document.querySelector(".input__name");
 const textarea = document.querySelector(".textarea");
 
 button.addEventListener("click", send);
