@@ -13,7 +13,9 @@ h2 {
   color: rgb(73, 146, 247);
 }
 
-.input {
+.user-name,
+.user-avatar,
+.textarea {
   background-color: inherit;
   border: rgb(73, 146, 247) 0.5px;
   border-style: dotted;
@@ -42,4 +44,9 @@ h2 {
   width: 100px;
   height: 40px;
   font-size: 15px;
+}
+
+#image-container {
+  height: 20px;
+  width: 20px;
 }
