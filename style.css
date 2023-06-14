@@ -46,7 +46,6 @@ h2 {
   font-size: 15px;
 }
 
-#image-container {
+img {
   height: 80px;
-  width: 50px;
 }

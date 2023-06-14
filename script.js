@@ -14,17 +14,17 @@ function user() {
 
 button.addEventListener("click", send);
 function send() {
-  const userName = document.createElement("userName");
+  const userName = document.createElement("p");
   userName.innerText = user(nameInput.value);
   const nameContainer = document.querySelector("#your-name");
   nameContainer.appendChild(userName);
 
-  const userAvatar = document.createElement("userAvatar");
+  const userAvatar = document.createElement("img");
   userAvatar.src = avatarInput.value;
   const container = document.querySelector("#image-container");
   container.appendChild(userAvatar);
 
-  const comment = document.createElement("comment");
+  const comment = document.createElement("p");
   comment.innerText = checkSpam(textarea.value);
   const commentContainer = document.querySelector("#chat");
   commentContainer.appendChild(comment);
